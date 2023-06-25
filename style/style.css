@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 1rem;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(171, 152, 152);
+}
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(171, 152, 152);
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.table {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+.item-list-container {
+  background-color: rgb(137, 120, 120);
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 5%;
+
+  padding: 1rem;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+}
+.item-name {
+  margin: 3.5rem;
+}
+table {
+  width: 100%;
+  align-items: center;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#add-btn {
+  background-color: rgb(68, 194, 68);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.clear {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.clear:hover {
+  background-color: red;
+}
+input,
+select,
+label {
+  margin: 0.25rem;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  color: green;
+}

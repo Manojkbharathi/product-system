@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Products system</h1>
+
+    <div class="content">
+      <label for="name">Product Name</label>
+      <input id="name" type="text" />
+      <label for="price">Product price</label>
+      <input id="price" type="number" />
+      <label for="type">Product Name</label>
+      <select name="type" id="type">
+        <option value=""></option>
+
+        <option value="Tv">Tv</option>
+
+        <option value="Mobile">Mobiles</option>
+        <option value="Laptops">Laptops</option>
+      </select>
+      <label for="type">Product condition</label>
+
+      <select name="condition" id="condition">
+        <option value=""></option>
+        <option value="Good">Good</option>
+        <option value="Excellent">Excellent</option>
+        <option value="Bad">Bad</option>
+      </select>
+
+      <div class="button-container">
+        <button type="submit" id="add-btn">Add Product</button>
+        <button type="submit" id="clear-btn" class="clear">Clear Form</button>
+      </div>
+      <input id="search" type="text" placeholder=" Search By Name.." />
+    </div>
+
+    <table>
+      <thead>
+        <th>Index</th>
+
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Condition</th>
+        <th>Actions</th>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <script src="./script.js"></script>
+  </body>
+</html>
